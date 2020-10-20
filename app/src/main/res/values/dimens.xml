@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding_left">10dp</dimen>
+    <dimen name="padding">10dp</dimen>
+    <dimen name="card_size">170dp</dimen>
+    <dimen name="edit_height">30dp</dimen>
+    <dimen name="text_size">15sp</dimen>
+
+    <dimen name="t_size">13sp</dimen>
+    <dimen name="tt_size">20sp</dimen>
+    <dimen name="m_left">10dp</dimen>
+    <dimen name="mm_left">30dp</dimen>
+    <dimen name="mm_right">30dp</dimen>
+    <dimen name="img_view">30dp</dimen>
+    <dimen name="card_corner_radius">12dp</dimen>
+    <dimen name="card_elevation">20dp</dimen>
+    <dimen name="elevation">30dp</dimen>
+    <dimen name="m_top">10dp</dimen>
+    <dimen name="img_view_size">30dp</dimen>
+    <dimen name="margin_bottom_15">15dp</dimen>
+    <dimen name="margin_bottom_5">5dp</dimen>
+    <dimen name="m_m_start">20dp</dimen>
+    <dimen name="m_m_end">20dp</dimen>
+    <dimen name="m_m_top">10dp</dimen>
+    <dimen name="t_t_size">15sp</dimen>
+    <dimen name="s_m_end">20dp</dimen>
+    <dimen name="s_m_top">15dp</dimen>
+    <dimen name="l_width">40dp</dimen>
+    <dimen name="ttt_size">10sp</dimen>
+    <dimen name="ll_top">30dp</dimen>
+    <dimen name="maring_medium_start">20dp</dimen>
+    <dimen name="tt_t_size">15sp</dimen>
+    <dimen name="image_height">350dp</dimen>
+    <dimen name="padding_medium">20dp</dimen>
+    <dimen name="margin_top_medium">10dp</dimen>
+    <dimen name="margin_small">10dp</dimen>
+    <dimen name="image_height_small">250dp</dimen>
+    <dimen name="text_small_15">15sp</dimen>
+    <dimen name="l_height">40dp</dimen>
+    <dimen name="t_size_medium">27sp</dimen>
+    <dimen name="m_left_15">15dp</dimen>
+    <dimen name="margin_top_15">15dp</dimen>
+    <dimen name="margin_start_20">20dp</dimen>
+</resources>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Zong</string>
+    <string name="search_song">Search Song</string>
+    <string name="song_title">Song Title</string>
+    <string name="singer_name">Singer Name</string>
+    <string name="search">Search</string>
+    <string name="albums">Albums</string>
+    <string name="song_lists">Song Lists</string>
+    <string name="app_name_custom">Zong</string>
+    <string name="album_lists">Album Lists</string>
+
+</resources>

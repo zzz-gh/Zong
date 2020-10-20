@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    tools:context=".activities.LyricActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_medium"
+        android:background="@color/colorPrimary">
+        <EditText
+            android:id="@+id/editSongTitle"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/edit_height"
+            android:background="@drawable/lyric_background_item"
+            android:hint="@string/song_title"
+            android:textSize="@dimen/text_size"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white"
+            android:gravity="center"
+            android:visibility="gone"
+            />
+        <EditText
+            android:id="@+id/editSingerName"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/edit_height"
+            android:background="@drawable/lyric_background_item"
+            android:layout_marginTop="10dp"
+            android:hint="@string/singer_name"
+            android:textSize="@dimen/text_size"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white"
+            android:gravity="center"
+            android:visibility="gone"
+            />
+        <Button
+            android:id="@+id/btnSearch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding"
+            android:background="@drawable/lyric_background_item"
+            android:layout_marginTop="@dimen/margin_top_medium"
+            android:layout_gravity="center"
+            android:text="@string/search"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:visibility="gone"
+            />
+        <TextView
+            android:id="@+id/songTil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/song_title"
+            android:textColor="@android:color/holo_green_light"
+            android:textSize="@dimen/tt_size"
+            android:textStyle="bold"
+            android:visibility="gone"
+            />
+
+        <TextView
+            android:id="@+id/textLyric"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/t_size"
+            android:textStyle="bold"
+            tools:text="This is lyric text" />
+    </LinearLayout>
+
+
+</ScrollView>
